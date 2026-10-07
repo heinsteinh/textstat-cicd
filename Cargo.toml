@@ -1,0 +1,19 @@
+[package]
+name = "textstat-cicd"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Count lines, words, and bytes in text from a file or stdin."
+license = "MIT OR Apache-2.0"
+publish = false
+
+[lib]
+name = "textstat"
+path = "src/lib.rs"
+
+[[bin]]
+name = "textstat"
+path = "src/main.rs"
+
+
+[dependencies]
